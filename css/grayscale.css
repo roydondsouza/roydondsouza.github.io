@@ -1,4 +1,5 @@
 /*!
+ * Modified by Roydon D'Souza - for roydondsouza.com Oct 16, 2014 
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -166,12 +167,20 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 70px;
     }
 
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+}
+
+@media(min-width:1200px) {
+
+    .intro .intro-body .brand-heading {
+        font-size: 80px;
+    }
+
 }
 
 .btn-circle {
@@ -266,8 +275,8 @@ a:focus {
 
 #map {
     width: 100%;
-    height: 200px;
-    margin-top: 100px;
+    /*height: 200px;*/
+    margin-top: 50px;
 }
 
 @media(min-width:767px) {
@@ -280,8 +289,8 @@ a:focus {
     }
 
     #map {
-        height: 400px;
-        margin-top: 250px;
+        /*height: 200px;*/
+        margin-top: 100px;
     }
 }
 
@@ -332,6 +341,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
+    border-top: 1px dotted rgba(255,255,255,.2);;
 }
 
 footer p {

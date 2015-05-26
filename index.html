@@ -73,6 +73,9 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
+                     <li>
+                        <a class="page-scroll" href="#pictures">Pictures</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -115,6 +118,18 @@
         </div>
     </section>
     <!--may the gods of semantic markup forgive me :P -->
+
+    <!-- Pictures Section -->
+    <section id="pictures" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Pictures</h2>
+                <h6 id="instagram-data">Loading Instagram Data ...</h6>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
@@ -179,6 +194,16 @@
 			window.addEventListener('load', __ldinsp, false);
 		}
 	})();
+</script>
+<script type="text/javascript">
+    $(document).ready(function(e) {
+     $.ajax({
+        url: "http://www.roydondsouza.com/insta_view.php",
+        success: function( jsonResponse ) {
+            $('#instagram-data').html( jsonResponse ); 
+        }
+    });
+});
 </script>
 <!-- End Inspectlet Embed Code -->
 </html>

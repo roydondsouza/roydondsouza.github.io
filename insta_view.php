@@ -62,7 +62,7 @@ foreach($circles->data as $circle){
 
 	//print_r($tags);
 	//echo "<br />";
-	echo "<a href='$link' target='_blank'><img style='border-radius:20px;margin-right:16px;margin-bottom:20px;height:170px;width:170px;float:left' src='$std_res' /></a>";
+	echo "<a href='$link' target='_blank'><img style='border-radius:20px;margin-right:16px;margin-bottom:20px;height:160px;width:160px;float:left' src='$std_res' /></a>";
 	//echo "<br />";
 	//print_r($comments);
 	//echo '<hr />';

@@ -7,7 +7,7 @@ Source repository for my home page
 <h3>Credits:</h3>
 <ol>
 <li>Site built on - <a target="_blank" href="https://github.com/IronSummitMedia/startbootstrap-grayscale">Grayscale Bootstrap Theme</a>. Thanks to <a target="_blank" href="https://github.com/IronSummitMedia">Iron Summit Media Strategies</a></li>
-<li>Image credits: <a href="https://unsplash.com/photos/fPN1w7bIuNU">Photo</a> by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Paweł Czerwiński</a> on <a href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></li>
+<li>Image credits: <a href="https://unsplash.com/photos/dHfsdurVoNQ">Photo</a> by <a href="https://unsplash.com/@marekpiwnicki">Marek Piwnicki</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></li>
 </ol>
 
 

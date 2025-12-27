@@ -1,5 +1,8 @@
 ## Changelog:
 
+### v0.1.6 - 27 Dec, 2025
+- updates work info and profile
+
 ### v0.1.5 - 11 Dec, 2024
 - removes picture section; updates designation and profile info 
   

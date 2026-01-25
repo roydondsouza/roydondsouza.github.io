@@ -1,5 +1,11 @@
 ## Changelog:
 
+### v0.2.0 - 25 Jan, 2026
+- Redesigned website with minimal, professional aesthetic.
+- Refactored code to semantic HTML5 and vanilla CSS/JS.
+- Improved SEO (Title, Meta Description, JSON-LD Schema).
+- Removed Bootstrap and jQuery dependencies.
+
 ### v0.1.6 - 27 Dec, 2025
 - updates work info and profile
 

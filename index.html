@@ -1,193 +1,161 @@
-<!--
-    Modified by Roydon D'Souza, First setup on Oct 16, 2014
-    Last updated on, Feb 05, 2021
-    Version Codename: Janus (Ref. Greek)
-    Repository on github - https://roydondsouza.github.io
-    Hosted on Netlify
-    Photo by Marek Piwnicki on Unsplash https://unsplash.com/photos/dHfsdurVoNQ
-    Code licensed under the Apache License v2.0.
-    For details, see http://www.apache.org/licenses/LICENSE-2.0
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roydon D'Souza — Software Engineer & Founder</title>
+    <meta name="description"
+        content="Senior Backend Engineer and Technical Lead based in Bengaluru, India. Specializing in high-availability systems, blockchain, and digital platforms. Founder of Sneaky Leather Supply Co.">
+    <meta name="author" content="Roydon D'Souza">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://roydondsouza.com/">
+    <meta property="og:title" content="Roydon D'Souza — Software Engineer & Founder">
+    <meta property="og:description"
+        content="Senior Backend Engineer based in Bengaluru. Specializing in high-availability systems and digital platforms.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://roydondsouza.com/">
+    <meta property="twitter:title" content="Roydon D'Souza — Software Engineer & Founder">
+    <meta property="twitter:description"
+        content="Senior Backend Engineer based in Bengaluru. Specializing in high-availability systems and digital platforms.">
+
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Roydon D'Souza",
+      "jobTitle": "Senior Backend Engineer",
+      "url": "https://roydondsouza.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/roydondsouza",
+        "https://github.com/roydondsouza",
+        "https://twitter.com/roydondsouza"
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Sneaky Leather Supply Co",
+        "url": "https://sneakyleather.com"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bengaluru",
+        "addressCountry": "India"
+      }
+    }
+    </script>
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TH4DCQ2');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TH4DCQ2');</script>
     <!-- End Google Tag Manager -->
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Roydon D' Souza is a full stack web developer based in Bengaluru, India. He has more than 8 years of experience as a freelance full stack web developer. He has a masters degree in Software Technology from St. Aloysius Institute of Management and Information Technology. Currently he works as a Senior Backend Engineer for InVideo (Mumbai). He was born and brought up in Surathkal, Mangalore he loves photography and spends his time on a lookout to solve real world problems.">
-    <meta name="keywords" content="web designing company,shopify expert, shopify bangalore, shopify bengaluru, website design company,javascript developer bangalore, javascript developer bengaluru, angular js developer bangalore,angular js developer bengaluru, roydon mangalore, roydon dsouza mangalore, royden dsouza, royden mangalore, royden bangalore, royden bengaluru, roydon, royden, royden d' souza, royden d'souza, php developer bangalore, php developer bengaluru, scala bengaluru, scala developer, php developer, data visualization expert, data visualization expert bangalore, freelance developer, php freelance developer bangalore, php freelance developer bengaluru, roydon surathkal, surathkal, php developer surathkal, st aloysius college, aimit, st agnes, alumni st aloysius, jesuit institutions mangalore, jesuit student, freelance data visualisation, d3 charts, d3 expert, php expert, php expert bangalore, php expert mangalore, heatmap expert, heatmap india, heatmap bangalore, heatmap mangalore">
-    <meta name="author" content="">
-
-    <title>Roydon D' Souza | Full-Stack Web Developer, Data Visualisation, Shopify, Blockchain & WordPress Expert</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="top">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH4DCQ2"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH4DCQ2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <header>
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" aria-label="Toggle Navigation" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <!-- <i class="fa fa-play-circle"></i> -->  <span class="light">Roydon</span> D' Souza
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
+            <a href="#top" class="brand">Roydon D'Souza</a>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <label class="theme-switch" aria-label="Toggle Dark Mode">
+                            <input type="checkbox" id="theme-checkbox">
+                            <span class="slider round"></span>
+                        </label>
                     </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#pictures">Pictures</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <!--<li>
-                        <a class="page-scroll" href="/blog">Blog</a>
-                    </li>-->
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Hi. I'm Roydon</h1>
-                        <p class="intro-text">A full stack web developer based in Bengaluru, India.</p>
-                        <a href="#about" aria-label="Scroll Down" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            </nav>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-
-              <h2>Hello! I'm Roydon D'Souza</h2>
-              <p class="description">I'm a full-stack web developer based in <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Bangalore">Bengaluru</a>, specializing in developing high-availability backends systems and interactive applications for web and mobile platforms.</p>
-              <p class="description">I have extensive experience in various domains, including Cards & Payment Processors, Blockchain & Cryptocurrencies, Digital Lending, Content Management Systems, Digital Wallet Platforms, E-Commerce Platforms, Ad Targeting & Reporting Platforms, Customer Relationship Management Software and Human Resource Information Systems</p>
-              <p class="description">With over 11 years of experience in software development, I currently work as a Technical Lead and Software Engineer at <a target="_blank" rel="noreferrer" href="https://www.invideo.io">invideo AI</a>.</p>
-              <p class="description">I am passionate about next-generation space technology, artificial neural networks, behavioral patterns and <a target="_blank" href="https://sneakyleather.com">leather crafting</a>. I also enjoy star gazing, photography, and history. I am always eager to tackle challenging real-world problems.</p>
-              <p class="description">You can find out more about me and my work at <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/roydondsouza">LinkedIn</a> or <a target="_blank" rel="noreferrer" href="https://www.github.com/roydondsouza">Github</a>.</p>
-
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <h1 class="intro-heading">Hi, I'm Roydon.</h1>
+                <p class="intro-text">A full stack web developer based in Bengaluru, India.</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Pictures Section -->
-    <!-- <section id="pictures" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Pictures</h2>
-                <p>
-                    Follow me on <a href="https://www.instagram.com/roydondsouza" target="_blank" rel="noreferrer">Instagram</a>
-                </p>
-                <div class='embedsocial-instagram' data-ref="fa94f826b25eff8f41750d08f50babe5d1787799"><a class="feed-powered-by-es" target="_blank" title=""></a></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <article>
+                    <p>I'm a full-stack web developer based in <a href="https://en.wikipedia.org/wiki/Bangalore"
+                            target="_blank" rel="noreferrer">Bengaluru</a>, specializing in developing high-availability
+                        backend systems and interactive applications for web and mobile platforms.</p>
+
+                    <p>I have extensive experience in various domains, including Cards & Payment Processors, Blockchain
+                        & Cryptocurrencies, Digital Lending, Content Management Systems, Digital Wallet Platforms,
+                        E-Commerce Platforms, Ad Targeting & Reporting Platforms, Customer Relationship Management
+                        Software, and Human Resource Information Systems.</p>
+
+                    <p>With over 11 years of experience in software development, I currently work as a Technical Lead
+                        and Software Engineer at <a href="https://www.invideo.io" target="_blank"
+                            rel="noreferrer">invideo AI</a>.</p>
+
+                    <p>Beyond code, I am passionate about next-generation space technology, artificial neural networks,
+                        behavioral patterns, and <a href="https://sneakyleather.com" target="_blank"
+                            rel="noopener">leather crafting</a>. I also enjoy stargazing, photography, and history. I am
+                        always eager to tackle challenging real-world problems.</p>
+
+                    <p>You can find out more about me and my work at <a href="https://www.linkedin.com/in/roydondsouza"
+                            target="_blank" rel="noreferrer">LinkedIn</a> or <a
+                            href="https://www.github.com/roydondsouza" target="_blank" rel="noreferrer">GitHub</a>.</p>
+                </article>
             </div>
-        </div>
-    </section> -->
+        </section>
 
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Just want to say hello? Feel free to shoot me a message!</p>
+                <p><a href="mailto:hello@roydondsouza.com?subject=Hello%20Roydon">hello@roydondsouza.com</a></p>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p>Just want to say hello, feel free to shoot me a message!</p>
-                <p><a href="mailto:hello@roydondsouza.com?subject=roydondsouza.com">hello@roydondsouza.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://www.linkedin.com/in/roydondsouza" target="_blank" rel="noreferrer" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                <ul class="social-links">
+                    <li><a href="https://www.linkedin.com/in/roydondsouza" target="_blank" rel="noreferrer">LinkedIn</a>
                     </li>
-                    <li>
-                        <a href="https://github.com/roydondsouza" target="_blank" rel="noreferrer" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/roydondsouza" target="_blank" rel="noreferrer" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://facebook.com/roydondsouza" target="_blank" rel="noreferrer" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
+                    <li><a href="https://github.com/roydondsouza" target="_blank" rel="noreferrer">GitHub</a></li>
+                    <li><a href="https://twitter.com/roydondsouza" target="_blank" rel="noreferrer">Twitter</a></li>
+                    <li><a href="https://facebook.com/roydondsouza" target="_blank" rel="noreferrer">Facebook</a></li>
                 </ul>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Map Section -->
-    <div id="map"></div>
-
-    <!-- Footer -->
     <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; 2006 - <script>document.write(new Date().getFullYear());</script> Roydon D' Souza </p>
+        <div class="container">
+            <p>&copy; 2006 -
+                <script>document.write(new Date().getFullYear())</script> Roydon D'Souza
+            </p>
         </div>
     </footer>
 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
+    <script src="js/main.js"></script>
 </body>
+
 </html>
